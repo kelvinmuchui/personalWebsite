@@ -58,7 +58,7 @@
 	}
 	
 	#face3 {
-		background:					#cdcdcd url(blue.png) no-repeat top left;
+		background:					#cdcdcd url(pyb3j10.gif) no-repeat top left;
 		-webkit-transform: 			translateZ(0px) translateX(270px) rotateY(90deg);
 	}
 	
@@ -149,7 +149,7 @@
 		height:						60px;
 		text-indent:				-10000px;
 		overflow:					hidden;
-		background:					transparent url(title.png) no-repeat top left;
+		background:					transparent url() no-repeat top left;
 	}
 	
 	input[type=submit] {
