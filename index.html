@@ -1,135 +1,170 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>kelvin muchui</title>
-		<link href="styles/end-screen.css" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>kelvin muchui</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
 
-		<script src="scripts/jquery.js"></script>
-		<script>
-			// We'll use a script to set the class to apply
-			$(document).ready(function(){
-				$(".face ul li a").click(function(){
-					parentid = $(this).parents("div").attr("id");
-					href=$(this).attr("href");
-					switch(parentid) {
-						case "face2":
-							if (href=="#face3") 
-								$("#cube").addClass("rotateright");
-							else
-								$("#cube").addClass("rotateleft");
-							break;
-						default:
-							$("#cube").removeClass("rotateleft").removeClass("rotateright");
-							break;
-					}
-					return false;
-				});
-			});
-		</script>
-	</head>
-	<body>
-		<div id="container">
-			<div id="cube">
-				<div class="face" id="face1" id="canv">
-					<h2>About me</h2>
-					<p><img class="rotateanddrop" src="images/17551305.jpeg" width="200" height="203" alt="All New!" />
-                        <h2>My bio</h2>
-                    <p1>I'm a DESIGN Engineer . I create and design website. I also do mobile development</p1>
+        <link rel="stylesheet" href="css/style.css">
 
+    
+    
+    
+  </head>
 
+  <body>
 
-                    </p>
-					<ul>
-						<li><a href="#face2" title="Click here to ...">Home</a></li>
-					</ul>
-				</div>
-				<div class="face" id="face2">
-					<ul>
-    <li>
-        <h2>Frontend</h2>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container topnav text-nav">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Kelvin Muchui </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-        <!-- HTML5 -->
-    <p style="width:80%" data-value="80">HTML5</p>
-        <progress max="100" value="80" class="html5">
-            <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-            <div class="progress-bar">
-                <span style="width: 80%">80%</span>
-            </div>
-        </progress>
+<a name="home"></a>
+<div class="bg-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-top">
+        Kelvin muchui
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-top-sub">
+        frontend and Backend Developer
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="list-inline" align="center">
+          <li>
+            <a href="https://www.facebook.com/kelvinmuchui" target="_blank" class="btn"><i class="fa fa-facebook-square"></i></a>
+          </li>
 
-        <!-- CSS3 -->
-    <p style="width:60%" data-value="60">CSS3</p>
-        <progress max="100" value="60" class="css3">
-            <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-            <div class="progress-bar">
-                <span style="width: 60%">60%</span>
-            </div>
-        </progress>
+          <li>
+            <a href="https://twitter.com/kelvinmuchui" target="_blank" class="btn"><i class="fa fa-twitter-square"></i></a>
+          </li>
 
-        <!-- jQuery -->
-    <p style="width:50%" data-value="50">jQuery</p>
-        <progress max="100" value="50" class="jquery">
-            <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-            <div class="progress-bar">
-                <span style="width: 50%">50%</span>
-            </div>
-        </progress>
+          <li>
+            <a href="http://e33aus.tumblr.com/" target="_blank" class="btn"><i class="fa fa-tumblr-square"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCE1LPxIVKiHq5g6yLiyXvYg" target="_blank" class="btn"><i class="fa fa-youtube-square"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-    </li>
-    <li>
-        <h2>Backend</h2>
+<a name="portfolio"></a>
+<div class="bg-portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-top">
+        MY PREVIOUS PROJECTS
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <a href="http://www.drpressure.com.au" target="_blank">
+          <img src="https://40.media.tumblr.com/0d1dd4bf3e3ac62116342178b93818fd/tumblr_o4dhbiQIj21v9nx34o1_1280.png" class="img-responsive portfolio-img" alt="">
+        </a>
+        <div class="caption">
+          <h4>Business Website: Dr Pressure</h4>
+          <h5>Scratch built Wordpress</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <a href="http://www.townsvillekartclub.com.au" target="_blank">
+          <img src="https://40.media.tumblr.com/fa59bf3fc39d7ab615682481f11397c2/tumblr_o4dheihRle1v9nx34o1_540.png" class="img-responsive portfolio-img" alt="">
+        </a>
+        <div class="caption">
+          <h4>Club Website: Townsville Kart Club</h4>
+          <h5>Managed Wordpress</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <a href="http://codepen.io/rjhartley/full/yOMVvY" target="_blank">
+          <img src="https://36.media.tumblr.com/543784832a0677e188e22998860f3044/tumblr_o4dijaGBLD1v9nx34o1_1280.png" class="img-responsive portfolio-img" alt="">
+        </a>
+        <div class="caption">
+          <h4>Portfolio Showcase: E33 Australia</h4>
+          <h5>CodePen showcase</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <!-- Python -->
-    <p style="width:75%" data-value="75">Python</p>
-        <progress max="100" value="75" class="python">
-            <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-            <div class="progress-bar">
-                <span style="width: 75%">75%</span>
-            </div>
-        </progress>
+<a name="about"></a>
+<div class="bg-about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-about">
+        <p>
+          Kelvin muchui is a wedDesigner and softwaredevelopment  based in Kenya, specialising in BackenDevelopment and implementation.
+        </p>
+        <p>
+           Also am good in ASP.net, c#, java, CSS3 and HTML5, Python, Flask framework, C++,
+        </p>
 
-        <!-- PHP -->
-    <p style="width:65%" data-value="65">PHP</p>
-        <progress max="100" value="65" class="php">
-            <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-            <div class="progress-bar">
-                <span style="width: 65%">65%</span>
-            </div>
-        </progress>
+      </div>
+      <div class="col-md-6">
+        <img src="https://40.media.tumblr.com/700199bcc9da01b41ae07735017eaeb7/tumblr_o4dktkZGZ11v9nx34o1_540.png" class="img-responsive" alt="" height="300px" width="300px" align="right">
+      </div>
+    </div>
+  </div>
+</div>
 
-        <!-- Node.js -->
-    <p style="width:35%" data-value="35">Node.js</p>
-    <progress max="100" value="35" class="node-js">
-            <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-            <div class="progress-bar">
-                <span style="width: 35%">35%</span>
-            </div>
-        </progress>
+<a name="contact"></a>
+<div class="bg-contact">
+  <div class="container" align="center">
+    <div class="row text-contact">
+        Let's create a solution
 
-    </li>
-</ul>
+      </div>
+      <div class="row">
+        <ul class="list-inline">
+          <li>
+            <a href="#" target="_blank" class="btn-contact"><i class="fa fa-envelope-square"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/eThirtyThr33" target="_blank" class="btn-contact"><i class="fa fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/AusE33" target="_blank" class="btn-contact"><i class="fa fa-twitter-square"></i></a>
+          </li>
 
-<p>Article - <a href="http://css-tricks.com/html5-progress-element/">http://css-tricks.com/html5-progress-element/</a></p>
-					<ul>
-						<li><a href="#face1" title="Click here to ...">About us</a></li>
-						<li><a href="#face3" title="Click here to ...">Contact us</a></li>
-					</ul>
-				</div>
-				<div class="face" id="face3">
-					<h2>Contact Us</h2>
-					<form action="">
-						<label>Name: <input type="text" id="name" name="name" placeholder="Enter your name" /></label>
-						<label>Email: <input type="email" id="email" name="email" placeholder="Enter your email address" /></label>
-						<label>Telephone: <input type="telephone" id="telephone" name="telephone" placeholder="Enter telephone number" /></label>
-						<label>Message: <textarea id="message" name="message"></textarea></label>
-						<input type="submit" value="Send message" />
-					</form>
-					<ul>
-						<li><a href="#face2" title="Click here to ...">Home</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</body>
+          <li>
+            <a href="http://e33aus.tumblr.com/" target="_blank" class="btn-contact"><i class="fa fa-tumblr-square"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCE1LPxIVKiHq5g6yLiyXvYg" target="_blank" class="btn-contact"><i class="fa fa-youtube-square"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row" align="center">
+    Copyright E33 (2016)
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+  </body>
 </html>
